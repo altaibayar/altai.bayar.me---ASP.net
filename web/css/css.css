@@ -1,0 +1,113 @@
+﻿/* 
+  Reset Reloaded
+  Eric Meyer
+  http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/ 
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    /*overflow: hidden; */
+    background-color: black;
+}
+
+#main-body {
+    text-align: left;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    color: white;
+    font-family: "Lucida Grande", Tahoma;
+    letter-spacing: 0.1em;
+}
+
+.background-image {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.alpha-box {
+    border-radius: 20px;
+    background: rgba(30, 30, 30, 0.9);
+}
+
+#profile-pic {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: 2;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+    #profile-pic p {
+        font-weight: bold;
+        text-align: center;
+        margin-top: 4px;
+    }
+
+#info-box {
+    position: absolute;
+    left: 230px;
+    top: 100px;
+    margin-right: 100px;
+    text-align: justify;
+    z-index: 2;
+}
+
+#personal-box {
+    padding: 30px;
+    position: relative;
+}
+
+    #personal-box h1 {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    #personal-box p {
+        padding: 20px;
+        font-size: 15px;
+    }
+
+    #personal-box .social-box {
+        text-align: right;
+        position: absolute;
+        right: 40px;
+    }
+
+        #personal-box .social-box img {
+            margin-right: 5px;
+            margin-bottom: -5px;
+        }
+
+    #personal-box #euler {
+        padding: 10px;
+    }
+
+#history-box h1 {
+    padding: 20px 0px 0px 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}

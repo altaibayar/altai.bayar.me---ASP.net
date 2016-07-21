@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{62209203-6118-498D-8E35-851CCD7B5596}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>altai.bayar.me</RootNamespace>
+    <AssemblyName>altai.bayar.me</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="celda\celda.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="celda\Default.aspx" />
+    <Content Include="css\accordion.css" />
+    <Content Include="css\css.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="HistoryBox.ascx" />
+    <Content Include="images\altai.jpg" />
+    <Content Include="images\bg1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\bg2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\bg3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\bg4.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\creditcard\image_10.png" />
+    <Content Include="images\creditcard\image_11.png" />
+    <Content Include="images\creditcard\image_4.png" />
+    <Content Include="images\creditcard\image_5.png" />
+    <Content Include="images\creditcard\image_6.png" />
+    <Content Include="images\facebook-32x32.png" />
+    <Content Include="images\github-32x32.png" />
+    <Content Include="images\linkedin-32x32.png" />
+    <Content Include="images\pulse\1.jpeg" />
+    <Content Include="images\pulse\2.jpeg" />
+    <Content Include="images\pulse\3.jpeg" />
+    <Content Include="images\pulse\4.jpeg" />
+    <Content Include="images\robotal\Picture1.png" />
+    <Content Include="images\robotal\Picture2.png" />
+    <Content Include="images\robotal\Picture3.png" />
+    <Content Include="images\robotal\Picture4.png" />
+    <Content Include="images\robotal\Picture5.png" />
+    <Content Include="images\robotal\Picture6.png" />
+    <Content Include="images\routeplan\unnamed.png" />
+    <Content Include="images\routeplan\unnamed_1_.png" />
+    <Content Include="images\routeplan\unnamed_2_.png" />
+    <Content Include="images\routeplan\unnamed_3_.png" />
+    <Content Include="images\routeplan\unnamed_4_.png" />
+    <Content Include="images\routeplan\unnamed_5_.png" />
+    <Content Include="images\routeplan\unnamed_6_.png" />
+    <Content Include="images\secretsms\1.png" />
+    <Content Include="images\secretsms\2.png" />
+    <Content Include="images\secretsms\3.png" />
+    <Content Include="images\secretsms\4.png" />
+    <Content Include="images\secretsms\5.png" />
+    <Content Include="images\secretsms\6.png" />
+    <Content Include="images\smartshopping\1.png" />
+    <Content Include="images\smartshopping\2.png" />
+    <Content Include="images\taxischool\Picture1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\taxischool\Picture2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\taxischool\Picture3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\taxischool\Picture4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\tvspotter\1.png" />
+    <Content Include="images\tvspotter\2.PNG" />
+    <Content Include="images\tvspotter\3.PNG" />
+    <Content Include="images\tvspotter\4.PNG" />
+    <Content Include="images\tvspotter\5.PNG" />
+    <Content Include="images\tvspotter\6.PNG" />
+    <Content Include="js\jquery-1.9.1.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\jquery.ui.accordion.js" />
+    <Content Include="PersonalBox.ascx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="celda\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="celda\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HistoryBox.ascx.cs">
+      <DependentUpon>HistoryBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HistoryBox.ascx.designer.cs">
+      <DependentUpon>HistoryBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Master.Master.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master.Master.designer.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalBox.ascx.cs">
+      <DependentUpon>PersonalBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PersonalBox.ascx.designer.cs">
+      <DependentUpon>PersonalBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Master.Master" />
+    <None Include="Properties\PublishProfiles\altai.bayar.me - Web Deploy.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50457</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:58866/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

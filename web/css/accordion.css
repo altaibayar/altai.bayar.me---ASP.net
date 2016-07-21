@@ -1,0 +1,32 @@
+﻿#accordion {
+    padding: 10px;
+}
+
+    #accordion h3 {
+        padding: 2px 10px 2px 10px;
+        margin-top: 5px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background: rgba(50, 50, 50, 0.5);
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 15px;
+    }
+
+    #accordion div {
+        padding: 10px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background: rgba(100, 100, 100, 0.5);
+    }
+
+        #accordion div p {
+            font-size: 10px;
+        }
+
+            #accordion div .desc {
+                padding: 3px;
+                background-color: rgba(200, 200, 200, 0.2);
+                margin-bottom: 2px;
+                border-radius: 3px;
+                font-style: italic;
+            }

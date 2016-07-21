@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="altai.bayar.me.Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Altai Tseveenbayar</title>
+
+    <meta name="author" content="Altaibayar Tseveenbayar" />
+    <meta name="description" content="Altai's Personal homepage" />
+    <meta name="keywords" content="J2ME, Android, Altai, Tseveenbayar, iOs, .Net, C#" />
+
+    <link media="all" href="css/css.css" type="text/css" rel="stylesheet" />
+    <link media="all" href="css/accordion.css" type="text/css" rel="stylesheet" />
+
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/jquery-ui.js"></script>
+
+    <script>
+        $(function ()
+        {
+            $("#accordion").accordion({
+                heightStyle: "content",
+                collapsible: true
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-39163439-1']);
+        _gaq.push(['_setDomainName', 'bayar.me']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+    <form id="form1" runat="server">
+        <asp:ContentPlaceHolder ID="placeHolderBody" runat="server" />
+    </form>
+</body>
+</html>
